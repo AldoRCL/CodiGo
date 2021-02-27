@@ -1,3 +1,33 @@
 p{
     color: goldenrod;
 }
+
+
+/*SINTAXIS CSS
+
+    selector{
+        propiedad: valor;
+    }   
+*/
+h1{
+    color: green;
+    font-size: 100px;
+}
+
+body{
+    background-color: chocolate;
+    text-align: start;
+}
+header{
+    background-color: white;
+    text-align: center;
+}
+.hola-mundo {
+    background-color: green;
+    font-size: 50px;
+}
+#Lugar{
+    color: white;
+    font-weight: bold;
+    font-size: 150px;
+}
