@@ -1,0 +1,25 @@
+#skeler{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+img{
+    display:block;
+    margin:auto;
+}
+.Titulos{
+    color: black;
+    text-align: start;
+}
+.contenido{
+    background-color: black;
+    color: blue;
+    text-align: center;
+}
+
+#año{
+    background-color: brown;
+    color: white;
+    text-align: center;
+}
