@@ -7,6 +7,11 @@
 img{
     display:block;
     margin:auto;
+    border-radius: 50%;
+
+}
+body{
+    background-color: green;
 }
 .Titulos{
     color: black;
