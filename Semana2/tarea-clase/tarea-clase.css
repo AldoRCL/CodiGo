@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+body{
+    background-color: gray;
+}
+.nombre{
+    color: blue;
+}
+.r1{
+    color: coral;
+}
+.r2{
+    color:blueviolet;
+}
+.r3{
+    color:greenyellow;
+}
+.r4{
+    color: peru;
+}
+.r5{
+    color: rgb(80, 255, 232);
+}
+h4{
+    font-family: 'Architects Daughter', cursive;
+}
+.p1{
+    color: orange;
+    font-family: 'Dancing Script', cursive;
+}
+.p2{
+    color: saddlebrown;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+.p3{
+    color: rgb(255, 102, 0);
+    font-family: 'Architects Daughter', cursive;
+}
+.p4{
+    color: rgb(223, 101, 217);
+    font-style: italic;
+}
+
+.grande{
+    font-weight: bold;
+    font-size: 100px;
+    
+}
+.raf{
+    font-style: italic;
+}
+.cot{
+    font-family: 'DotGothic16', sans-serif;
+}
+.loz{
+    font-family: 'Akaya Kanadaka', cursive;
+}

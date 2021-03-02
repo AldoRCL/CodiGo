@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+
+#texto-en-negrita{
+    font-weight: bold;
+}
+#texto-en-italica{
+    font-style: italic;
+}
+#autor{
+    font-weight: bold;
+}
+.estilo-de-letra{
+    font-family: 'Architects Daughter', cursive;
+}
