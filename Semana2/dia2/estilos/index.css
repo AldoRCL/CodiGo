@@ -1,0 +1,26 @@
+body{
+    background-color: lightskyblue;
+}
+#primer-parrafo{
+    background-color: red;
+    max-width: 50%;
+}
+#segundo-parrafo{
+    background-color: green;
+    opacity: 0.5;
+}
+#tercer-parrafo{
+    background-color: blue;
+    opacity: 0.2;
+    color: black;
+}
+#cuarto-parrafo{
+    background-color: rgba(16, 245, 16, 0.212);
+}
+#contenedor{
+    height: 400px;
+    width: 350px;
+    background-image: url("https://www.dzoom.org.es/wp-content/uploads/2008/12/panoramica-8-734x413.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}

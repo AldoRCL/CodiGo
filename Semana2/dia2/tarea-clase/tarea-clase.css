@@ -1,0 +1,26 @@
+body{
+    width: 100vw;
+    height: 100vw;
+    background-image: url("https://yt3.ggpht.com/ytc/AAUvwnjSHUf863QWh5PCNrvzqcrPLLIleIpG10WCW2eeuA=s900-c-k-c0x00ffffff-no-rj");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+}
+main{
+    text-align: center;
+}
+img{
+    height: 300px;
+    width: 500px;
+    border-radius: 30%;
+}
+footer{
+    height: 200px;
+    width: 1500px;
+    background-image: url("https://fulldays.net/wp-content/uploads/2019/11/Sin-t%C3%ADtulo-2-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}

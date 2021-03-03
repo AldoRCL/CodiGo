@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    border-style: double dashed dashed dashed;
+}
+#t1{
+    border-style: inset;
+}
+#t2{
+    border-style: double;
+}
+#t3{
+   border-style: solid;
+}
+#t4{
+    border-style: dotted double dotted double;
+}
+#t5{
+    border-style: dashed;
+}
