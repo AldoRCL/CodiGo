@@ -1,0 +1,15 @@
+body{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to left green,yellow);
+    text-align: center;
+}
+#gg{
+    filter:grayscale(100%);
+    border-radius: 20%;
+    background-image: linear-gradient( blue, orange,green);
+}
+
+#blur{
+    filter:blur(20px);
+}
