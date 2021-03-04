@@ -17,7 +17,7 @@
 }
 
 img{
-    animation: circulo 10s infinite
+    animation: circulo 10s infinite;
     
 }
 @keyframes circulo {
