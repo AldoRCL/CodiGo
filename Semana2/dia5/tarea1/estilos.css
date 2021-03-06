@@ -1,0 +1,10 @@
+header{
+    background-color: rgb(192, 190, 190);
+    text-align: center;
+}
+div{
+text-align: center;
+}
+img{
+    filter: grayscale(100%);
+}

@@ -1,0 +1,24 @@
+body{
+    width: 1000px;
+    height: 1000px;
+    background-color: aquamarine;
+}
+
+header{
+    background-color: black;
+    color: white;
+    width: 1000px;
+    text-align: center;
+}
+nav{
+    background-color: yellowgreen;
+    color: black;
+    width: 1000px;
+    text-align: center;
+}
+main{
+
+}
+footer{
+    text-align: center;
+}
