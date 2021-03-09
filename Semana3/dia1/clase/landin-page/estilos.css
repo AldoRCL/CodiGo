@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+*{
+    margin: 0;
+}
+header{
+    height: 70px;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(246,86,85,1) 18%, rgba(245,77,76,1) 19%);
+}
+a{
+    padding: 5px;
+    font-weight: bolder;
+    color: #5b713d;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+}
+#logo{
+    margin: 10px;
+    height: 80px;
+    width: 100px;
+}
+#main{
+    width: 100%;
+}
+#fondo{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+#nombre{
+    position: relative;
+    top: 100px !important;
+    left: 30% !important;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: xxx-large;
+}
+#perfil{
+    position: relative;
+    top: 140px !important;
+    left: 420px !important;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid white;
+    
+}
+#botones{
+    position: relative;
+    top: 180px !important;
+    left: 250px !important;
+}
+.boton{
+    border-radius: 10px;
+    border: 4px solid white;
+    background-color: rgb(246,86,85);
+    color:white;
+    font-size: 30px;
+    padding: 10px;
+    margin-right:20px ;
+    cursor: pointer;
+}
+
