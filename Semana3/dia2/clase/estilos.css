@@ -1,0 +1,16 @@
+
+body{
+    background-color: green;
+}
+/*Pantallas EXTRA PEQUEÑAS (celulares,hasta 600px, o sea que tengan un ancho menor a 600px)*/
+@media only screen and ( max-width:600px ){
+    body{
+        background-color: tomato;
+    }
+}
+/*Pantallas PEQUEÑAS (tablets en modo portrait(vertical) y celulares grandes, o sea que teiene resolucion mayor a 600px)*/
+@media only screen and ( min-width:600px ){
+    body{
+        background-color: blue;
+    }
+}
