@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,300&display=swap');
+
+*{
+    font-family: 'arial', sans-serif;
+}
+#contenedor-horizontal-final {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /*justify-content: space-between;*/
+
+  }
+  .elemento{
+      margin-left: 20px;
+      margin-top: 15px;
+      size: 13px;
+  }
+  .puntitos{
+    box-sizing: border-box;
+    height: 24px;
+    width: 24px;
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+  .perfil{
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    margin-right: 13px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  main{
+    display: flex;
+  align-items: center;
+  flex-direction: column;
+  }
+  .gugul{
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 150px;
+
+  }
+  #lupa{
+    height: 24px;
+    width: 24px;
+    margin-right: 13px;
+    margin-left: 13px;
+    color: #9aa0a6;
+  }
+  #micro{
+    height: 24px;
+    width: 24px;
+    margin-right: 8px;
+    margin-left: 8px;
+  }
+  .table{
+    border-radius: 50px;
+    border: 1px solid #9aa0a6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 600px;
+  }
+  input{
+    height: 34px;
+    width: 480px;
+    margin-top: 10px;
+    border-color:transparent ;
+  }
+  #blue{
+    color: blue;
+  }
+  #button{
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+  }
+  button{
+       background-color: #f8f9fa;
+       border: 1px solid #f8f9fa;
+       border-radius: 4px;
+       color: #3c4043;
+       font-size: 14px;
+       margin: 11px 4px;
+       padding: 0 16px;
+       line-height: 27px;
+       height: 36px;
+       min-width: 54px;
+       cursor: pointer;
+     user-select: none;
+  }
+  sub{
+    padding: 15px 30px;
+    background-color: #9aa0a6;
+    color: #ced1d4;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  footer{
+    border-bottom: 1px solid #dadce0;
+    background-color: #9aa0a6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  #grey{
+    color: #ced1d4;
+  }
+  
