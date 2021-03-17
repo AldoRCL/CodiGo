@@ -31,7 +31,7 @@ if(suma === 9){
     alert("OH, LOSIENTO, SIGUE INTENTANDO")
 }
 */
-
+/*
 let lenguaje_de_programacion = "c++"
 
 if(lenguaje_de_programacion == "python"){
@@ -45,3 +45,41 @@ if(lenguaje_de_programacion == "python"){
 }else{
     console.log("que? aun no te sabes ninguno ? ñ.ñ")
 }
+*/
+//
+/*
+let titulo_cancion = "Panocha-Remix"
+
+if(titulo_cancion == "Panocha-Remix"){
+    console.log("Me encanta tu pan**** y tus t**** Tus t****, Cuando bailas twerking, tú te arre****, Me vuelves loco de placer, Contigo quiero amanecer fol*****")
+}else if(titulo_cancion == "duro-2-horas"){
+    console.log("Duro dos horas haciéndolo bien rico, ¡oh!, De las chicas soy su favorito, wow, Todas dicen que me aman, Todas me quieren en su cama")
+}else if(titulo_cancion == "hawai"){
+    console.log("hawai de vacaciones")
+}else if(titulo_cancion == "dakiti"){
+    console.log("Ya yo me entere se nota cuando me ves")
+}else{
+    console.log("No sabes de musica")
+}
+*/
+
+function miFuncion(){
+    console.log("Mi primera funcion es lo mejor del mundo!!!!")
+    console.log("Las funciones me sirven para no repetir mi codigo")
+    console.log("Las funciones me ayudan a escribir mejor mi codigo")
+}
+
+function imprimeMinombre(nombre){
+    let miNombre= ""
+    if(nombre === ""){
+        miNombre = "Debes ingresar un nombre valido !, gracias"
+    }else if(nombre != ""){
+        miNombre = `Mi nombre es:  ${nombre} .`
+    }
+
+    return miNombre;
+}
+
+imprimeMinombre("Aldo")
+console.log(imprimeMinombre("Aldo"))
+console.log(imprimeMinombre(""))
