@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+
+
+html{
+
+    background: url("./imagenes/pexels-jill-burrow-6773223.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+*{
+    margin: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contenedor{
+    margin-top: 40px;
+    padding: 10px;
+}
+p{
+    width: 300px;
+    overflow: scroll;
+}
