@@ -24,7 +24,7 @@ for( elementoHtml in demoTag){
 }*/
 let elementoHtml = 0
  while ( elementoHtml < demoTag.length) {
-    demoTag[elementoHtml].style.border = "6px solid black"
+    demoTag[elementoHtml].style.border = "5px solid black"
     elementoHtml++
 }
 
