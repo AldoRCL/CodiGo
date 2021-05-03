@@ -95,7 +95,7 @@ const NavBar = () => {
           >
             <MenuItem onClick={handleClose}>Comercio</MenuItem>
             <MenuItem onClick={handleClose}>Servicios</MenuItem>
-            <MenuItem onClick={handleClose}>Otroserdona</MenuItem>
+            <MenuItem onClick={handleClose}>Otros</MenuItem>
           </Menu>
         </Box>
         <Box >

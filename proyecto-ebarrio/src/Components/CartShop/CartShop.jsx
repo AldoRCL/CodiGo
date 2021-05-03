@@ -1,14 +1,14 @@
 import React from "react";
-import CheckPay from "../CheckPay/CheckPay";
 import { makeStyles } from "@material-ui/core/styles";
-import Typography from "@material-ui/core/Typography";
-import Divider from "@material-ui/core/Divider";
 import CarritoDeCompras from "./Parts/CarritoDeCompras";
 import Box from "@material-ui/core/Box";
-import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
+import ResumenDeCompra from "./Parts/ResumenDeCompra";
 
-const useStyles = makeStyles((theme) => ({}));
+
+const useStyles = makeStyles((theme) => ({
+
+}));
 
 const CartShop = () => {
   const classes = useStyles();
@@ -17,13 +17,18 @@ const CartShop = () => {
       <Grid container spacing={1} >
         <Grid item xs={9} >
           <Box >
+            <br/>
             <CarritoDeCompras />
           </Box>
         </Grid>
         <Grid item xs={3}>
-          <Box>Resumen de compra</Box>
+          <Box>
+            <br/>
+            <ResumenDeCompra />
+          </Box>
         </Grid>
       </Grid>
+
     </div>
   );
 };
